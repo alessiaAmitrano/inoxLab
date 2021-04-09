@@ -26,13 +26,13 @@
 body {
 	color: #666666;
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial Narrow','Roboto', sans-serif;
 	line-height: 1.80857;
 	overflow-x: hidden !important;
 }
 
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial Narrow', 'Roboto', sans-serif;
 }
 
 a {
@@ -750,7 +750,7 @@ button#sidebarCollapse {
 
 .lbox-details h1 {
 	font-size: 54px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial Narrow', 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-weight: 600;
 	position: relative;
@@ -774,7 +774,7 @@ button#sidebarCollapse {
 .lbox-details p strong {
 	color: #70c6eb;
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial Narrow', 'Montserrat', sans-serif;
 }
 
 .lbox-details a.btn {
@@ -2137,7 +2137,7 @@ p {
     font-weight: 700;
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arial Narrow','Raleway', sans-serif;
     position: relative;
     text-transform: uppercase;
     line-height: 45px !important;
@@ -2169,7 +2169,7 @@ p {
 }
 
 .heading_main p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arial Narrow','Raleway', sans-serif;
 }
 
 .heading_main p.small_tag {
@@ -2987,7 +2987,7 @@ height: 45px;
 }
 
 .flex-container-footer > .white_fonts {
-	width: 33.3%;
+	width: 25%;
 }
 
 .footer-block-inner {
@@ -2998,7 +2998,8 @@ height: 45px;
 
 .block-icon-1,
 .block-icon-2,
-.block-icon-3 {
+.block-icon-3,
+.block-icon-4 {
 	background-image: url(../images/f_icon1.png);
   background-repeat: no-repeat;
 	width: 45px;
@@ -3010,8 +3011,12 @@ height: 45px;
 		background-image: url(../images/f_icon2.png);
 }
 
-.block-icon-2 {
+.block-icon-3 {
 		background-image: url(../images/f_icon3.png);
+}
+
+.block-icon-4 {
+		background-image: url(../images/f_icon4.png);
 }
 
 input:focus {

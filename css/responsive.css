@@ -467,18 +467,18 @@ header #sidebarCollapse img {
     .logo_main {
          padding: 15px 0 15px;
     }
+
+    #sidebarCollapse {
+        display: block !important;
+    }
+
     #sidebarCollapse img {
         width: 45px;
         position: absolute;
-        top: -52px;
         right: 20px;
+        top: 25px;
     }
-    button#sidebarCollapse {
-        background: transparent;
-        float: right;
-        margin: 0;
-        padding: 0;
-    }
+
     .logo_main img {
         width: 135px;
     }
@@ -511,7 +511,7 @@ header #sidebarCollapse img {
      .contact_bt {
          width: 90px;
          height: 35px;
-         background: #07528d;
+         background: #075E88;
          color: #fff;
          float: left;
          line-height: 36px;
@@ -715,7 +715,7 @@ form.news_submit_form .field button {
     width: 210px;
     border: none;
     float: none;
-    background: #ef4023;
+    background: #075E88;
     color: #fff;
     font-size: 18px;
     font-weight: 400;

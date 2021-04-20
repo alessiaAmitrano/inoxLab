@@ -76,7 +76,7 @@ h3 {
 
 h4 {
 	font-size: 21px;
-	color: #07528d;
+	color: #075E88;
 	margin-top: 25px;
 }
 
@@ -694,6 +694,7 @@ a.navbar-brand {
 }
 
 button#sidebarCollapse {
+		display: none;
     background: transparent;
     float: right;
     margin: 50px 0 0;
@@ -1107,7 +1108,7 @@ button#sidebarCollapse {
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	position: relative;
 	overflow: hidden;
-	background: #ef4023;
+	background: #075E88;
 	-webkit-transition-property: color;
 	transition-property: color;
 	-webkit-transition-duration: 0.3s;
@@ -1128,7 +1129,7 @@ button#sidebarCollapse {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #ef4023;
+	background: #075E88;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -1966,7 +1967,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #262e41;
+    background: #075E88;
     padding: 70px 0;
 }
 
@@ -2214,7 +2215,7 @@ p.section_count {
 }
 
 .theme_bg {
-	background: #07528d;
+	background: #075E88;
 }
 
 h3.small_heading {
@@ -2374,7 +2375,7 @@ ul.social_icon li {
 }
 
 .dark_blue_layout {
-    background: #262e41;
+    background: #075E88;
 }
 
 .readmore_bt {
@@ -2430,7 +2431,7 @@ ul.social_icon li {
 
 .footer_bottom p.crp a:hover,
 .footer_bottom p.crp a:focus {
-	color: #fc3726;
+	color: #075E88;
 }
 
 .footer_menu ul {
@@ -2686,7 +2687,7 @@ ul.bottom_menu li {
     line-height: 62px;
     cursor: pointer;
     transition: ease all 0.5s;
-    background: #ef4023;
+    background: #075E88;
     text-transform: none;
 }
 
@@ -2729,7 +2730,7 @@ ul.bottom_menu li {
       top: 0;
       left: -301px;
       height: 100vh;
-      z-index: 999;
+      z-index: 100;
       background: #fff;
       color: #fff !important;
       transition: all 0.3s;
@@ -2739,48 +2740,21 @@ ul.bottom_menu li {
       left: 0;
     }
 
-    #sidebar .sidebar-header {
-      padding: 20px;
-      background: #6d7fcc;
-    }
-
-    #sidebar ul.components {
-      padding: 20px 0;
-      border-bottom: 1px solid #47748b;
-    }
-
-    #sidebar ul p {
-      color: #fff;
-      padding: 10px;
-    }
-
     #sidebar ul li a {
        padding: 10px 0;
        font-size: 20px;
        display: block;
-       color: #222;
-       font-weight: 300;
+       color: #075E88;
+       font-weight: 400;
        letter-spacing: 1px;
-    }
-
-    #sidebar ul li a:hover {
-      color: #fc301e;
-      background: #fff;
     }
 
     .menu_section {
       float: left;
-      width: 100%;
-      padding: 0 30px;
-    }
-
-    .menu_section ul {
-      float: left;
-      width: 100%;
+      width: 75%;
     }
 
     .menu_section ul li {
-      float: left;
       width: 100%;
       border-bottom: solid #eee 1px;
     }
@@ -2886,7 +2860,7 @@ form.news_submit_form .field button {
     border: none;
     float: left;
     margin: 0;
-    background: #ef4023;
+    background: #075E88;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -2916,7 +2890,7 @@ a.readmore_bt::after {
 }
 
 .theme_color_bg {
-	background: #fc3726;
+	background: #075E88;
 }
 
 footer.footer-box .heading_main h2 {
@@ -2964,10 +2938,23 @@ body {
 height: 45px;
 }
 
-#sidebarCollapse {
-	margin: 0 !important;
-	height: 45px;
-	padding: 18px 18px 0 0 !important;
+.app-header-nav {
+	display: block;
+	width: 100%;
+	margin: 10px 0 0 30px;
+}
+
+.app-header-nav a,
+.app-header-nav a:visited {
+	color: #075E88;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 600;
+	padding: 0 20px;
+}
+
+.app-header-nav a:hover {
+	text-decoration: underline !important;
 }
 
 .flex-container {
@@ -3061,6 +3048,18 @@ input:focus {
 /* media queries */
 
 @media(max-width: 600px) {
+	.logo_main {
+		position: absolute;
+		top: 3px;
+	}
+	.menu_section > .app-header-nav {
+		display: block;
+	}
+
+	.app-header-nav {
+		display: none;
+	}
+
 	.flex-container-footer > .white_fonts {
 		width: 100%;
 		margin: 15px auto;

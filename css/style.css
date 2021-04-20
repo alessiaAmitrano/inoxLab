@@ -58,7 +58,7 @@ h6 {
 	padding: 0 0 10px 0;
 	font-weight: normal;
 	line-height: 120% !important;
-	color: #e94531;
+	color: #075E88;
 	margin: 0
 }
 
@@ -94,7 +94,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-	color: #e94531;
+	color: #075E88;
 	text-decoration: none!important;
 	opacity: 1
 }
@@ -654,7 +654,7 @@ a.navbar-brand {
 }
 
 .theme_color {
-	color: #fc301e;
+	color: #075E88;
 }
 
 .menu_orange_section {
@@ -790,18 +790,18 @@ button#sidebarCollapse {
 }
 
 .lbox-details a.btn:hover {
-	background: #fc301e;
+	background: #075E88;
 }
 
 .pogoSlider-nav-btn {
-    background: #272f43;
+    background: #075E88;
     width: 22px;
     height: 22px;
     border-radius: 100%;
 }
 
 .pogoSlider-nav-btn--selected {
-	background: #fc301e !important;
+	background: #359FB6 !important;
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
@@ -821,7 +821,7 @@ button#sidebarCollapse {
     font-weight: 700;
     padding: 0;
     text-transform: uppercase;
-    color: #272f43;
+    color: #075E88;
     line-height: 110px !important;
     position: relative;
     left: -8px;
@@ -837,7 +837,7 @@ button#sidebarCollapse {
     margin: 0;
     padding: 0;
     text-transform: none;
-    color: #272f43;
+    color: #075E88;
     line-height: 75px !important;
 }
 
@@ -895,7 +895,7 @@ button#sidebarCollapse {
 
 .slide_text h6 {
     font-size: 25px;
-    color: #272f43;
+    color: #075E88;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -970,7 +970,7 @@ button#sidebarCollapse {
 
 .feature_box:hover,
 .feature_box:focus {
-   background: #fc301e;
+   background: #075E88;
 }
 
 .feature_box:hover h4,
@@ -2051,7 +2051,7 @@ p {
     font-size: 17px;
     font-weight: 300;
     line-height: 30px;
-    color: #272f43;
+    color: #075E88;
 }
 
 .text_align_left {
@@ -2225,7 +2225,7 @@ h3.small_heading {
 }
 
 .heading_small h4 {
-    color: #272f43;
+    color: #075E88;
     font-size: 30px;
     border-bottom: solid #ddd 1px;
     margin-bottom: 40px;
@@ -2384,7 +2384,7 @@ ul.social_icon li {
     font-weight: 200;
     width: 200px;
     height: 65px;
-    background: #272f43;
+    background: #075E88;
     float: left;
     text-align: center;
     line-height: 65px;
@@ -2401,7 +2401,7 @@ ul.social_icon li {
 }
 
 .readmore_bt:hover,.readmore_bt:focus {
-	background-color: #fc301e;
+	background-color: #075E88;
 	color: #fff;
 }
 
@@ -2694,7 +2694,7 @@ ul.bottom_menu li {
 .contact_form_inner button:hover,
 .contact_form_inner button:focus {
     color: #fff;
-    background: #272f43;
+    background: #075E88;
 }
 
 /** sidebar **/
@@ -3093,3 +3093,6 @@ input:focus {
 
 }
 
+/* #075E88 */
+/* #359FB6 */
+/* #7694A0 */

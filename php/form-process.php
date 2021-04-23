@@ -3,31 +3,31 @@
 $errorMSG = "";
 
 // NAME
-if (empty($_POST["name"])) {
+if (empty($_GET["name"])) {
     $errorMSG = "Name is required ";
 } else {
-    $name = $_POST["name"];
+    $name = $_GET["name"];
 }
 
 // EMAIL
-if (empty($_POST["email"])) {
+if (empty($_GET["email"])) {
     $errorMSG .= "Email is required ";
 } else {
-    $email = $_POST["email"];
+    $email = $_GET["email"];
 }
 
 // phone
-if (empty($_POST["phone"])) {
+if (empty($_GET["phone"])) {
     $errorMSG .= "Subject is required ";
 } else {
-    $phone = $_POST["phone"];
+    $phone = $_GET["phone"];
 }
 
 // MESSAGE
-if (empty($_POST["message"])) {
+if (empty($_GET["message"])) {
     $errorMSG .= "Message is required ";
 } else {
-    $message = $_POST["message"];
+    $message = $_GET["message"];
 }
 
 

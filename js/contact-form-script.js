@@ -22,7 +22,7 @@ function submitForm() {
       'form', {name: name, email: email, phone: phone, message: message});
   $.ajax({
     type: 'GET',
-    url: 'php/form-process.php',
+    url: 'form-process.php',
     data: 'name=' + name + '&email=' + email + '&phone' + phone +
         '&message=' + message,
     success: function(text) {

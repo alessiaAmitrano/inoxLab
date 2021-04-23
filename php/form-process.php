@@ -16,21 +16,12 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
-// MSG Guest
-if (empty($_POST["guest"])) {
+// phone
+if (empty($_POST["phone"])) {
     $errorMSG .= "Subject is required ";
 } else {
-    $guest = $_POST["guest"];
+    $phone = $_POST["phone"];
 }
-
-
-// MSG Event
-if (empty($_POST["event"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $event = $_POST["event"];
-}
-
 
 // MESSAGE
 if (empty($_POST["message"])) {
@@ -41,23 +32,20 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "alessia.amitranobo@gmail.com";
-$Subject = "New Message Received";
+$Subject = "Messaggio da sito web Inoxlab";
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nome: ";
 $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "guest: ";
-$Body .= $guest;
+$Body .= "Telefono: ";
+$Body .= $phone;
 $Body .= "\n";
-$Body .= "event: ";
-$Body .= $event;
-$Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Messaggio: ";
 $Body .= $message;
 $Body .= "\n";
 

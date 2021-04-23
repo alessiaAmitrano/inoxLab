@@ -29,7 +29,7 @@ function submitForm() {
       if (text == 'success') {
         formSuccess();
       } else {
-        formError();
+        formError(text);
         submitMSG(false, text);
       }
     }
@@ -41,15 +41,8 @@ function formSuccess() {
   submitMSG(true, 'Message Submitted!')
 }
 
-function formError() {
-  $('#contactForm')
-      .removeClass()
-      .addClass('shake animated')
-      .one(
-          'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-          function() {
-            $(this).removeClass();
-          });
+function formError(text) {
+  console.log(text);
 }
 
 function submitMSG(valid, msg) {

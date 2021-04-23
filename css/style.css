@@ -996,7 +996,7 @@ button#sidebarCollapse {
 }
 
 .feature_box p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 22px;
     font-weight: 400;
 }
@@ -2048,7 +2048,7 @@ footer.footer-box h3 {
 p {
     margin-top: 5px;
     margin-bottom: 1rem;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     color: #075E88;

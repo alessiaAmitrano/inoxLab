@@ -20,11 +20,6 @@
 		<!-- Site CSS -->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
-		<link rel="stylesheet" href="css/custom.css" />
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
 	</head>
 	<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 		<!-- LOADER -->
@@ -255,7 +250,7 @@
 							<div class="col-sm-12 col-md-12">
 								<div class="flex-container">
 									<div class="full contact_form ">
-										<form class="contact_form_inner" action="#">
+										<form class="contact_form_inner" id="contactForm">
 											<fieldset>
 												<div class="field">
 													<input type="text" name="name" placeholder="Nome" />
@@ -270,7 +265,7 @@
 													<textarea placeholder="Messaggio"></textarea>
 												</div>
 												<div class="field center">
-													<button class="margin-top_30">INVIA</button>
+													<button type="submit" class="margin-top_30">INVIA</button>
 												</div>
 											</fieldset>
 										</form>
@@ -287,9 +282,6 @@
 								<div class="col-sm-12">
 									<div class="full map_section">
 										<div id="map">
-												<div id="googleMap" >
-													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.880707622339!2d17.24979533495518!3d40.51552069843064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13470237acf163a7%3A0x83e9975bdc1b3a21!2sVia%20del%20Tratturello%20Tarantino%2C%206%2C%2074123%20Taranto%20TA!5e0!3m2!1sit!2sit!4v1600676862193!5m2!1sit!2sit" style="width:100%;height: 830px;"></iframe>
-												</div>
 										</div>
 									</div>
 								</div>
@@ -362,15 +354,15 @@
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <!-- ALL PLUGINS -->
-      <script src="js/jquery.magnific-popup.min.js"></script>
       <script src="js/jquery.pogo-slider.min.js"></script>
       <script src="js/slider-index.js"></script>
-      <script src="js/smoothscroll.js"></script>
+      <script src="js/google-maps.js"></script>
       <script src="js/form-validator.min.js"></script>
       <script src="js/contact-form-script.js"></script>
       <script src="js/isotope.min.js"></script>
       <script src="js/images-loded.min.js"></script>
       <script src="js/custom.js"></script>
+			<script async src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBUslHLPisFpfYXmZDK57LXLjzO8m2TZ1o&callback=initMap'></script>
 	<!-- End Google Map -->
 	<script>
 		$(document).ready(function() {

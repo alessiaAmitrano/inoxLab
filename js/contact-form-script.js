@@ -21,7 +21,7 @@ function submitForm() {
   console.log(
       'form', {name: name, email: email, phone: phone, message: message});
   $.ajax({
-    type: 'POST',
+    type: 'GET',
     url: 'php/form-process.php',
     data: 'name=' + name + '&email=' + email + '&phone' + phone +
         '&message=' + message,

@@ -3083,6 +3083,10 @@ input:focus {
 .pogoSlider {
 	display: none;
 }
+
+.prodotti-item {
+	flex-flow: column nowrap;
+}
 }
 
 @media(min-width: 601px) and (max-width: 1024px) {
@@ -3123,4 +3127,14 @@ input:focus {
 .opaque-background strong {
 	padding: 55px 0 0 30px;
   display: block;
+}
+
+.prodotti-item {
+	display:  flex;
+	flex-flow: row nowrap;
+	margin:30px 0;
+}
+
+.prodotti-item .content {
+	padding: 30px 50px;
 }

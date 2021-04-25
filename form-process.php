@@ -3,36 +3,37 @@
 $errorMSG = "";
 
 // NAME
-if (empty($_GET["name"])) {
+if (empty($_POST["name"])) {
     $errorMSG = "Name is required ";
 } else {
-    $name = $_GET["name"];
+    $name = $_POST["name"];
 }
 
 // EMAIL
-if (empty($_GET["email"])) {
+if (empty($_POST["email"])) {
     $errorMSG .= "Email is required ";
 } else {
-    $email = $_GET["email"];
+    $email = $_POST["email"];
 }
 
 // phone
-if (empty($_GET["phone"])) {
+if (empty($_POST["phone"])) {
     $errorMSG .= "Subject is required ";
 } else {
-    $phone = $_GET["phone"];
+    $phone = $_POST["phone"];
 }
 
 // MESSAGE
-if (empty($_GET["message"])) {
+if (empty($_POST["message"])) {
     $errorMSG .= "Message is required ";
 } else {
-    $message = $_GET["message"];
+    $message = $_POST["message"];
 }
 
 
 $EmailTo = "alessia.amitranobo@gmail.com";
 $Subject = "Messaggio da sito web Inoxlab";
+$Header = "From:".$email;
 
 // prepare email body text
 $Body = "";
@@ -50,7 +51,7 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+$success = mail($EmailTo, $Subject, $Body, $Header);
 
 // redirect to success page
 if ($success && $errorMSG == ""){

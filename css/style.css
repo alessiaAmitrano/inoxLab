@@ -889,7 +889,7 @@ button#sidebarCollapse {
 }
 
 .slide_text {
-    margin-top: 280px;
+    margin: 160px 0 0 30px;
     padding-left: 0;
 }
 
@@ -2225,6 +2225,7 @@ h3.small_heading {
 }
 
 .heading_small h4 {
+		text-transform: uppercase;
     color: #075E88;
     font-size: 30px;
     border-bottom: solid #ddd 1px;
@@ -2371,7 +2372,7 @@ ul.social_icon li {
 }
 
 .slide_text .readmore_bt {
-    margin-top: 45px;
+    margin-top: 100px;
 }
 
 .dark_blue_layout {
@@ -3078,6 +3079,10 @@ input:focus {
 	height: 350px;
 	width: auto;
 }
+
+.pogoSlider {
+	display: none;
+}
 }
 
 @media(min-width: 601px) and (max-width: 1024px) {
@@ -3096,3 +3101,26 @@ input:focus {
 /* #075E88 */
 /* #359FB6 */
 /* #7694A0 */
+.pogoSlider-slide {
+	background-size: cover;
+}
+
+.slide_text.opaque {
+	margin: 110px 0 0;
+    padding-left: 0;
+}
+
+.slide_text.opaque .readmore_bt {
+	margin: 30px;
+}
+
+.opaque-background {
+    width: 870px;
+    height: 360px;
+    background-color: rgba(256,256,256,0.4);
+}
+
+.opaque-background strong {
+	padding: 55px 0 0 30px;
+  display: block;
+}

@@ -18,7 +18,7 @@ if (empty($_POST["email"])) {
 
 // phone
 if (empty($_POST["phone"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "Phone is required ";
 } else {
     $phone = $_POST["phone"];
 }
@@ -31,9 +31,9 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "alessia.amitranobo@gmail.com";
+$EmailTo = "info@inoxlabtaranto.it";
 $Subject = "Messaggio da sito web Inoxlab";
-$Header = "From:".$email;
+$Header = "Da:".$email;
 
 // prepare email body text
 $Body = "";

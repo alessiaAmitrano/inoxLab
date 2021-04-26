@@ -32,3 +32,14 @@ $(document).ready(function() {
   });
 });
 }(jQuery));
+
+
+// ridimensiona maps Iframe
+function setMapSize() {
+  var iframe = document.getElementsByTagName('iframe')[0];
+
+  iframe.setAttribute('width', window.innerWidth.toString());
+  iframe.setAttribute('height', '850');
+}
+
+setMapSize();

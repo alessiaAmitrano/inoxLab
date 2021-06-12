@@ -2916,7 +2916,7 @@ body {
 .app-header {
 	position: fixed;
 	background-color: #fff;
-	height: 80px;
+	height: 100px;
 	width: 100%;
 	top:0;
 	left: 0;
@@ -2932,7 +2932,9 @@ body {
 }
 
 .app-header .logo_main {
-	padding: 18px 0 0 18px;
+	padding: 10px 0;
+	margin: 0 auto;
+	width: fit-content;
 }
 
 .app-header .logo_main img {

@@ -832,18 +832,18 @@ button#sidebarCollapse {
 }
 
 .slide_text h4 {
-    font-size: 75px;
+    font-size: 55px;
     font-weight: 500;
     margin: 0;
     padding: 0;
     text-transform: none;
     color: #075E88;
-    line-height: 75px !important;
+    line-height: 55px !important;
 }
 
 .slide_text p {
-    color: #f2184f;
-    font-size: 20px;
+    color: #075E88;
+    font-size: 25px;
     font-weight: 300;
     padding-top: 0;
     line-height: normal;
@@ -2128,7 +2128,7 @@ p {
 }
 
 .layout_padding {
-	padding-top: 90px;
+	padding-top: 100px;
 	padding-bottom: 90px;
 }
 
@@ -2920,7 +2920,7 @@ body {
 	width: 100%;
 	top:0;
 	left: 0;
-	z-index: 10;
+	z-index: 100;
 	overflow: hidden;
 }
 
@@ -2929,22 +2929,24 @@ body {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
+	height: 40px;
 }
 
 .app-header .logo_main {
-	padding: 10px 0;
+	padding: 7px 0;
 	margin: 0 auto;
 	width: fit-content;
 }
 
 .app-header .logo_main img {
-height: 45px;
+height: 55px;
 }
 
 .app-header-nav {
 	display: block;
 	width: 100%;
-	margin: 10px 0 0 30px;
+	margin: -15px 0 0 30px;
+	text-align: center;
 }
 
 .app-header-nav a,
@@ -3058,7 +3060,7 @@ input:focus {
 }
 
 .slide_text.opaque .readmore_bt {
-	margin: 30px;
+	margin: 160px 30px 30px;
 }
 
 .opaque-background {
@@ -3069,6 +3071,11 @@ input:focus {
 
 .opaque-background strong {
 	padding: 55px 0 0 30px;
+  display: block;
+}
+
+.opaque-background p {
+	padding: 20px 0 0 30px;
   display: block;
 }
 
@@ -3092,6 +3099,7 @@ input:focus {
 	}
 	.menu_section > .app-header-nav {
 		display: block;
+		margin-top: 30px;
 	}
 
 	.app-header-nav {

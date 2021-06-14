@@ -3066,7 +3066,7 @@ input:focus {
 .opaque-background {
     width: 870px;
     height: 360px;
-    background-color: rgba(256,256,256,0.4);
+    background-color: rgba(256,256,256,0.7);
 }
 
 .opaque-background strong {
